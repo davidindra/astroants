@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:astroants"
         mc:Ignorable="d"
-        Title="Astroanti na Quadientu" Height="204" Width="500" ResizeMode="NoResize">
+        Title="Astroanti na Quadientu" Height="228.667" Width="500" ResizeMode="NoResize">
     <Grid>
         <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="100" Margin="10,66,0,0" VerticalAlignment="Top" Width="465"/>
+        <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="10" Margin="10,171,0,0" VerticalAlignment="Top" Width="465" Value="50"/>
 
         <Label Content="Počet zelených:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label x:Name="amountGreen" Content="3" HorizontalAlignment="Left" Margin="211,10,0,0" VerticalAlignment="Top"/>
@@ -20,7 +21,7 @@
         <Label Content="Počet kroků:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top"/>
         <Label x:Name="amountSteps" Content="5" HorizontalAlignment="Left" Margin="195,38,0,0" VerticalAlignment="Top"/>
         <Slider x:Name="sliderSteps" HorizontalAlignment="Left" Margin="90,43,0,0" VerticalAlignment="Top" Width="100" Minimum="1" Maximum="50" SmallChange="0" IsSnapToTickEnabled="True" Value="5" ValueChanged="sliderSteps_ValueChanged"/>
-        
+
         <Button x:Name="start" Content="Zobrazit pohyb astroantů" HorizontalAlignment="Left" Margin="223,41,0,0" VerticalAlignment="Top" Width="252" Click="start_Click"/>
     </Grid>
 </Window>
