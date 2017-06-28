@@ -8,7 +8,7 @@
         Title="Astroanti na Quadientu" Height="228.667" Width="500" ResizeMode="NoResize">
     <Grid>
         <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="100" Margin="10,66,0,0" VerticalAlignment="Top" Width="465"/>
-        <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="10" Margin="10,171,0,0" VerticalAlignment="Top" Width="465" Value="50"/>
+        <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="10" Margin="10,171,0,0" VerticalAlignment="Top" Width="465" RenderTransformOrigin="0,0"/>
 
         <Label Content="Počet zelených:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label x:Name="amountGreen" Content="3" HorizontalAlignment="Left" Margin="211,10,0,0" VerticalAlignment="Top"/>
